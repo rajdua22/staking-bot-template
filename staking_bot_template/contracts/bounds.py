@@ -1,3 +1,9 @@
+'''
+Aloe Capital LLC
+06-12-2021
+MIT License
+'''
+
 from typing import NamedTuple
 
 class Bounds(NamedTuple):

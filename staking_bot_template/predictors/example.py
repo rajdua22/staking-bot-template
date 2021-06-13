@@ -1,3 +1,9 @@
+'''
+Aloe Capital LLC
+06-12-2021
+MIT License
+'''
+
 from staking_bot_template.predictors.predictor import Predictor
 
 from staking_bot_template.contracts import Proposal

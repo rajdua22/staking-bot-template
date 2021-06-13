@@ -1,3 +1,9 @@
+'''
+Aloe Capital LLC
+06-12-2021
+MIT License
+'''
+
 from abc import ABC, abstractmethod
 from collections import namedtuple
 

@@ -1,3 +1,9 @@
+'''
+Aloe Capital LLC
+06-12-2021
+MIT License
+'''
+
 import os
 from time import time, sleep
 
@@ -60,8 +66,7 @@ def main():
                 # If you want to use other data from the contract to guide
                 # predictions, pass that in here. For example:
                 'uniswap_bounds': contract.get_uniswap_bounds(),
-                'active_aggregate': contract.get_active_aggregate(),
-                'current_aggregate': contract.get_current_aggregate()
+                'active_aggregate': contract.get_active_aggregate()
             })
 
             print(f'Predictor returned {len(proposals)} proposals to submit')
